@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta App - Môi Trường Kiểm Thử (Port 8080)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 16px;
+            padding: 40px 32px;
+            max-width: 520px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+        }
+        .badge {
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        h1 { font-size: 28px; margin-bottom: 12px; color: #f5f3ff; }
+        p { color: #94a3b8; line-height: 1.6; font-size: 15px; margin-bottom: 24px; }
+        .port-info {
+            background: #0f172a;
+            border: 1px solid #334155;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="badge">🚀 Testing Environment</span>
+        <h1>Beta Application</h1>
+        <p>Trang kiểm thử ứng dụng độc lập dành cho đội ngũ phát triển và kiểm thử sản phẩm.</p>
+        <div class="port-info">Listening Port: 8080 (TCP) &bull; Root: /var/www/beta-app/html</div>
+    </div>
+</body>
+</html>
